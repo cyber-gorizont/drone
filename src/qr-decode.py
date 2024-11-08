@@ -5,6 +5,7 @@ import numpy as np
 import pyzbar.pyzbar as pyzbar
 
 cap = cv2.VideoCapture(0)
+font = cv2.FONT_HERSHEY_SIMPLEX
 
 while True:
     _, frame = cap.read()
